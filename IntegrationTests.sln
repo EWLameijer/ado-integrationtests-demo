@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTestsAdo.ConsoleApp", "IntegrationTests\IntegrationTestsAdo.ConsoleApp.csproj", "{C5B28CF9-FB7F-4E51-A4D1-B17B2130AD27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoIntegrationTests.ConsoleApp", "AdoIntegrationTests.ConsoleApp\IntegrationTestsAdo.ConsoleApp.csproj", "{C5B28CF9-FB7F-4E51-A4D1-B17B2130AD27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTestsAdo.Business.IntegrationTests", "IntegrationTests.Business.Tests\IntegrationTestsAdo.Business.IntegrationTests.csproj", "{CC2B0B40-907D-4B3F-ACA1-DEA7F7A3F84D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoIntegrationTests.Business.IntegrationTests", "AdoIntegrationTests.Business.IntegrationTests\IntegrationTestsAdo.Business.IntegrationTests.csproj", "{CC2B0B40-907D-4B3F-ACA1-DEA7F7A3F84D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTestsAdo.Business", "IntegrationTests.Business\IntegrationTestsAdo.Business.csproj", "{A7631BA7-77F1-4D7E-8D0E-DE979190D1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoIntegrationTests.Business", "AdoIntegrationTests.Business\IntegrationTestsAdo.Business.csproj", "{A7631BA7-77F1-4D7E-8D0E-DE979190D1A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
