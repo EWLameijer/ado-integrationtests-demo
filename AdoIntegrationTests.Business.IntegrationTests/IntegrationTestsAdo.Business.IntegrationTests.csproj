@@ -21,14 +21,14 @@
     </PackageReference>  
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AdoIntegrationTests.Business\IntegrationTestsAdo.Business.csproj" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<None Update="xunit.runner.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\IntegrationTests.Business\IntegrationTestsAdo.Business.csproj" />
-  </ItemGroup>
 
 </Project>

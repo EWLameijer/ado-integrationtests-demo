@@ -7,7 +7,7 @@ public class Base
         "Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;" +
         "ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
-    protected BrandService BrandService = new BrandService(TestDatabaseConnectionString);
+    protected BrandService BrandService = new(TestDatabaseConnectionString);
 
     protected Utils Utils = new(TestDatabaseConnectionString);
 }
